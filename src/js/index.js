@@ -7,8 +7,6 @@ import 'regenerator-runtime/runtime'
 import React, {useEffect} from 'react'
 import {render} from 'react-dom'
 
-import gui from '~js/helpers/gui'
-
 import Canvas from '~js/components/Canvas'
 import Camera from '~js/components/Canvas/Camera'
 import Environment from '~js/components/Canvas/Environment'
@@ -18,7 +16,7 @@ import Environment from '~js/components/Canvas/Environment'
  */
 const App = () => {
   useEffect(() => {
-    gui.init()
+    // gui.init()
   }, [])
 
   return (
