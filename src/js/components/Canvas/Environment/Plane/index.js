@@ -46,7 +46,7 @@ export default () => {
       >
         <planeBufferGeometry
           attach="geometry"
-          args={[0.4, 0.6, 16, 16]}
+          args={[0.512, 0.512, 16, 16]}
         />
         <primitive
           object={material}
