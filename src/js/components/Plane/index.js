@@ -5,12 +5,12 @@ import {ShaderMaterial} from 'three'
 
 import {useAssets, useTexture} from '~js/hooks'
 
-import vertex from '~shaders/plane.vert'
-import fragment from '~shaders/plane.frag'
+import vertex from '~shaders/wave.vert'
+import fragment from '~shaders/wave.frag'
 
 export default () => {
   const mesh = useRef()
-  const img = useAssets('images/frenjamin.jpg')
+  const img = useAssets('images/allan.jpg')
   const imgTexture = useTexture(img)
 
   const uniforms = useMemo(() => ({

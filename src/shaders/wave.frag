@@ -5,7 +5,7 @@ varying float vWave;
 uniform sampler2D uTexture;
 
 void main() {
-  float wave = vWave * 0.25;
+  float wave = vWave * 0.4;
   float r = texture2D(uTexture, vUv).r;
   float g = texture2D(uTexture, vUv).g;
   float b = texture2D(uTexture, vUv + wave).b;
